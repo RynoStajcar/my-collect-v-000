@@ -1,5 +1,7 @@
 def my_collect(array)
-  if array == 0
-    puts "Array is empty"
+  if block_given?
+    puts "given"
+  elsif
+    puts "not given"
   end
 end
